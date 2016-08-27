@@ -9,19 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var jump_link_component_1 = require('./jump-link.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var JumpLinkComponent = (function () {
+    function JumpLinkComponent() {
     }
-    AppComponent = __decorate([
+    JumpLinkComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n            <h1 id=\"site-title\">Slice Vote</h1>\n            <jump-link></jump-link>\n            ",
-            directives: [jump_link_component_1.JumpLinkComponent]
+            selector: 'jump-link',
+            template: "\n            <div id=\"jumplink\">\n            <h3>Jump-To Links</h3>\n            <ul>\n              <li><a href=\"#\">Languages</a></li>\n              <li><a href=\"#\">Site Authors</a></li>\n              <li><a href=\"#\">Voting Reminders</a></li>\n              <li><a href=\"#\">Voter Registration</a></li>\n              <li><a href=\"#\">Donate</a></li>\n              <li><a href=\"#\">Table Navigation</a></li>\n              <li><a href=\"#\">Main Table</a></li>\n            </ul>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], JumpLinkComponent);
+    return JumpLinkComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.JumpLinkComponent = JumpLinkComponent;
+//# sourceMappingURL=jump-link.component.js.map

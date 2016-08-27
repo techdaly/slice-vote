@@ -19,3 +19,24 @@ body {
   text-align: center;
   font-size: 3em;
 }
+
+#jumplink {
+  max-width: 30%;
+  background-color: white;
+  padding: 10px;
+}
+
+#jumplink h3{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#jumplink ul{
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+#jumplink a {
+  text-decoration: none;
+}
