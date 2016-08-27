@@ -41,7 +41,7 @@ import {PositionComponent} from './position.component'
               <position></position>
             </nav>
             `,
-  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent]
+  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent, BallotItemComponent]
 })
 
 export class AppComponent { }
