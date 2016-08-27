@@ -85,4 +85,14 @@ a:visited {
   padding: 1px;
   width: 30%;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+#donate {
+  background-color: #586CEF;
+  color: white;
+  font-family: sans-serif;
+  padding: 1px;
+  width: 30%;
+  text-align: center;
 }

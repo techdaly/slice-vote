@@ -14,6 +14,7 @@ var language_component_1 = require('./language.component');
 var site_author_component_1 = require('./site-author.component');
 var email_me_component_1 = require('./email-me.component');
 var vote_reg_component_1 = require('./vote-reg.component');
+var donate_component_1 = require('./donate.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -21,7 +22,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             template: "\n            <header>\n            <div class=\"left-header\">\n              <jump-link></jump-link>\n              <language></language>\n            </div>\n\n            <div class=\"center-header\">\n              <h1 id=\"site-title\">Slice Vote</h1>\n              <site-author></site-author>\n            </div>\n\n            <div class=\"right-header\">\n              <email-me></email-me>\n              <vote-reg></vote-reg>\n              <donate></donate>\n            </div>\n            </header>\n            ",
-            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent, site_author_component_1.SiteAuthorComponent, email_me_component_1.EmailMeComponent, vote_reg_component_1.VoteRegComponent]
+            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent, site_author_component_1.SiteAuthorComponent, email_me_component_1.EmailMeComponent, vote_reg_component_1.VoteRegComponent, donate_component_1.DonateComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

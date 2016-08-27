@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var SiteAuthorComponent = (function () {
-    function SiteAuthorComponent() {
+var DonateComponent = (function () {
+    function DonateComponent() {
     }
-    SiteAuthorComponent = __decorate([
+    DonateComponent = __decorate([
         core_1.Component({
-            selector: 'site-author',
-            template: "\n            <div id=\"site-author\">\n              <h3><a href=\"#\">who runs this site?</a></h3>\n            </div>\n            "
+            selector: 'donate',
+            template: "\n            <div id=\"donate\">\n              <p>donate to slice vote</p>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
-    ], SiteAuthorComponent);
-    return SiteAuthorComponent;
+    ], DonateComponent);
+    return DonateComponent;
 }());
-exports.SiteAuthorComponent = SiteAuthorComponent;
-//# sourceMappingURL=site-author.component.js.map
+exports.DonateComponent = DonateComponent;
+//# sourceMappingURL=donate.component.js.map
