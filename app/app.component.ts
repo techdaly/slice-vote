@@ -27,7 +27,7 @@ import {DonateComponent} from './donate.component'
             </div>
             </header>
             `,
-  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent]
+  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent]
 })
 
 export class AppComponent { }
