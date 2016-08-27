@@ -38,6 +38,7 @@ body {
 }
 
 #jumplink a {
+  font-family: sans-serif;
   text-decoration: none;
 }
 
@@ -54,4 +55,15 @@ a:visited {
 #language select{
   width: 200px;
   font-size: 48px;
+}
+
+#site-author {
+  width: 30%;
+  background-color: white;
+  padding: 1px;
+  text-align: center;
+}
+
+#site-author a {
+  text-decoration: none;
 }
