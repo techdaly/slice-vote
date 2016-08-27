@@ -15,7 +15,7 @@ var SiteAuthorComponent = (function () {
     SiteAuthorComponent = __decorate([
         core_1.Component({
             selector: 'site-author',
-            template: "\n            <div id=\"site-author\">\n              <h3><a href=\"#\">who runs this site?</a></h3>\n            </div>\n            "
+            template: "\n            <div id=\"site-author\">\n              <p><a href=\"#\">who runs this site?</a></p>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
     ], SiteAuthorComponent);

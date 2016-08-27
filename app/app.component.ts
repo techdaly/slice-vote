@@ -12,7 +12,6 @@ import {DonateComponent} from './donate.component'
             <header>
             <div class="left-header">
               <jump-link></jump-link>
-              <language></language>
             </div>
 
             <div class="center-header">
@@ -26,6 +25,7 @@ import {DonateComponent} from './donate.component'
               <donate></donate>
             </div>
             </header>
+            <language></language>
             `,
   directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent]
 })

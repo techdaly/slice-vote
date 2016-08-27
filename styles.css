@@ -14,16 +14,47 @@ body {
   background-color: #A7DEFF;
 }
 
+header {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.left-header {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+}
+
+.center-header {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+}
+
+.right-header {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+}
+
 #site-title {
   color: #FF4C4C;
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 #jumplink {
-  max-width: 30%;
   background-color: white;
   padding: 10px;
+  box-shadow: 1px 1px 3px #333;
 }
 
 #jumplink h3{
@@ -48,8 +79,6 @@ a:visited {
 
 #language{
   margin-top: 15px;
-  width: 30%;
-  height: 100px;
 }
 
 #language select{
@@ -58,10 +87,11 @@ a:visited {
 }
 
 #site-author {
-  width: 30%;
   background-color: white;
   padding: 1px;
   text-align: center;
+  font-family: sans-serif;
+  box-shadow: 1px 1px 3px #333;
 }
 
 #site-author a {
@@ -73,9 +103,9 @@ a:visited {
   color: white;
   font-family: sans-serif;
   padding: 1px;
-  width: 30%;
   text-align: center;
   margin-bottom: 15px;
+  box-shadow: 1px 1px 3px #333;
 }
 
 #vote-reg {
@@ -83,9 +113,9 @@ a:visited {
   color: white;
   font-family: sans-serif;
   padding: 1px;
-  width: 30%;
   text-align: center;
   margin-bottom: 15px;
+  box-shadow: 1px 1px 3px #333;
 }
 
 #donate {
@@ -93,6 +123,6 @@ a:visited {
   color: white;
   font-family: sans-serif;
   padding: 1px;
-  width: 30%;
   text-align: center;
+  box-shadow: 1px 1px 3px #333;
 }
