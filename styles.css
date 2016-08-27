@@ -40,3 +40,18 @@ body {
 #jumplink a {
   text-decoration: none;
 }
+
+a:visited {
+  color: blue;
+}
+
+#language{
+  margin-top: 15px;
+  width: 30%;
+  height: 100px;
+}
+
+#language select{
+  width: 200px;
+  font-size: 48px;
+}

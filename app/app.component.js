@@ -10,14 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var jump_link_component_1 = require('./jump-link.component');
+var language_component_1 = require('./language.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n            <h1 id=\"site-title\">Slice Vote</h1>\n            <jump-link></jump-link>\n            ",
-            directives: [jump_link_component_1.JumpLinkComponent]
+            template: "\n            <header>\n            <div class=\"left-header\">\n              <jump-link></jump-link>\n              <language></language>\n            </div>\n\n            <div class=\"center-header\">\n              <h1 id=\"site-title\">Slice Vote</h1>\n              <site-author></site-author>\n            </div>\n\n            <div class=\"right-header\">\n              <email-me></email-me>\n              <vote-reg></vote-reg>\n              <donate></donate>\n            </div>\n            </header>\n            ",
+            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

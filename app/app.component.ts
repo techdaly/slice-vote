@@ -1,13 +1,33 @@
 import {Component} from '@angular/core'
 import {JumpLinkComponent} from './jump-link.component'
+import {LanguageComponent} from './language.component'
+import {SiteAuthorComponent} from './site-author.component'
+import {EmailMeComponent} from './email-me.component'
+import {VoteRegComponent} from './vote-reg.component'
+import {DonateComponent} from './donate.component'
 
 @Component({
   selector: 'my-app',
   template: `
-            <h1 id="site-title">Slice Vote</h1>
-            <jump-link></jump-link>
+            <header>
+            <div class="left-header">
+              <jump-link></jump-link>
+              <language></language>
+            </div>
+
+            <div class="center-header">
+              <h1 id="site-title">Slice Vote</h1>
+              <site-author></site-author>
+            </div>
+
+            <div class="right-header">
+              <email-me></email-me>
+              <vote-reg></vote-reg>
+              <donate></donate>
+            </div>
+            </header>
             `,
-  directives: [JumpLinkComponent]
+  directives: [JumpLinkComponent, LanguageComponent]
 })
 
 export class AppComponent { }
