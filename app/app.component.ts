@@ -5,6 +5,10 @@ import {SiteAuthorComponent} from './site-author.component'
 import {EmailMeComponent} from './email-me.component'
 import {VoteRegComponent} from './vote-reg.component'
 import {DonateComponent} from './donate.component'
+import {CountyComponent} from './county.component'
+import {PartyComponent} from './party.component'
+import {BallotItemComponent} from './ballot-item.component'
+import {PositionComponent} from './position.component'
 
 @Component({
   selector: 'my-app',
@@ -26,8 +30,17 @@ import {DonateComponent} from './donate.component'
             </div>
             </header>
             <language></language>
+
+            <h2 id="eval-title">You are currently evaluating the</h2>
+
+            <nav>
+              <county></county>
+              <party></party>
+              <ballot-item></ballot-item>
+              <position></position>
+            </nav>
             `,
-  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent]
+  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent]
 })
 
 export class AppComponent { }

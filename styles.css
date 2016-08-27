@@ -79,6 +79,12 @@ a:visited {
 
 #language{
   margin-top: 15px;
+  font-family: sans-serif;
+}
+
+#language label{
+  padding-left: 7px;
+  color: #333;
 }
 
 #language select{
@@ -125,4 +131,20 @@ a:visited {
   padding: 1px;
   text-align: center;
   box-shadow: 1px 1px 3px #333;
+}
+
+#eval-title {
+  text-align: center;
+  margin-top: 75px;
+  font-size: 1.75em;
+}
+
+#county{
+  font-family: sans-serif;
+  max-width: 25%;
+}
+
+#county label{
+  padding-left: 7px;
+  color: #333;
 }

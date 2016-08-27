@@ -15,14 +15,15 @@ var site_author_component_1 = require('./site-author.component');
 var email_me_component_1 = require('./email-me.component');
 var vote_reg_component_1 = require('./vote-reg.component');
 var donate_component_1 = require('./donate.component');
+var county_component_1 = require('./county.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n            <header>\n            <div class=\"left-header\">\n              <jump-link></jump-link>\n            </div>\n\n            <div class=\"center-header\">\n              <h1 id=\"site-title\">Slice Vote</h1>\n              <site-author></site-author>\n            </div>\n\n            <div class=\"right-header\">\n              <email-me></email-me>\n              <vote-reg></vote-reg>\n              <donate></donate>\n            </div>\n            </header>\n            <language></language>\n            ",
-            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent, site_author_component_1.SiteAuthorComponent, email_me_component_1.EmailMeComponent, vote_reg_component_1.VoteRegComponent, donate_component_1.DonateComponent]
+            template: "\n            <header>\n            <div class=\"left-header\">\n              <jump-link></jump-link>\n            </div>\n\n            <div class=\"center-header\">\n              <h1 id=\"site-title\">Slice Vote</h1>\n              <site-author></site-author>\n            </div>\n\n            <div class=\"right-header\">\n              <email-me></email-me>\n              <vote-reg></vote-reg>\n              <donate></donate>\n            </div>\n            </header>\n            <language></language>\n\n            <h2 id=\"eval-title\">You are currently evaluating the</h2>\n\n            <nav>\n              <county></county>\n              <party></party>\n              <ballot-item></ballot-item>\n              <position></position>\n            </nav>\n            ",
+            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent, site_author_component_1.SiteAuthorComponent, email_me_component_1.EmailMeComponent, vote_reg_component_1.VoteRegComponent, donate_component_1.DonateComponent, county_component_1.CountyComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

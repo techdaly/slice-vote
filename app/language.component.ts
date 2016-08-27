@@ -4,7 +4,9 @@ import {Component} from '@angular/core'
   selector: 'language',
   template: `
             <div id="language">
-              <select>
+              <label for="language">Languages</label>
+              <br>
+              <select name="language">
                 <option value="english">English</option>
                 <option class="dim" value="spanish">Español</option>
                 <option class="dim" value="russian">русский</option>

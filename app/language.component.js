@@ -15,7 +15,7 @@ var LanguageComponent = (function () {
     LanguageComponent = __decorate([
         core_1.Component({
             selector: 'language',
-            template: "\n            <div id=\"language\">\n              <select>\n                <option value=\"english\">English</option>\n                <option class=\"dim\" value=\"spanish\">Espa\u00F1ol</option>\n                <option class=\"dim\" value=\"russian\">\u0440\u0443\u0441\u0441\u043A\u0438\u0439</option>\n                <option class=\"dim\" value=\"vietnamese\">Ti\u1EBFng Vi\u1EC7t</option>\n                <option class=\"dim\" value=\"ukrainian\">\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0438\u0439</option>\n                <option class=\"dim\" value=\"hmong\">\u0E0A\u0E32\u0E27\u0E21\u0E49\u0E07</option>\n              </select>\n            </div>\n            "
+            template: "\n            <div id=\"language\">\n              <label for=\"language\">Languages</label>\n              <br>\n              <select name=\"language\">\n                <option value=\"english\">English</option>\n                <option class=\"dim\" value=\"spanish\">Espa\u00F1ol</option>\n                <option class=\"dim\" value=\"russian\">\u0440\u0443\u0441\u0441\u043A\u0438\u0439</option>\n                <option class=\"dim\" value=\"vietnamese\">Ti\u1EBFng Vi\u1EC7t</option>\n                <option class=\"dim\" value=\"ukrainian\">\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0438\u0439</option>\n                <option class=\"dim\" value=\"hmong\">\u0E0A\u0E32\u0E27\u0E21\u0E49\u0E07</option>\n              </select>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
     ], LanguageComponent);
