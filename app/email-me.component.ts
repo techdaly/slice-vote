@@ -4,7 +4,7 @@ import {Component} from '@angular/core'
   selector: 'email-me',
   template: `
             <div id="email-me">
-              <p>email me reminders to vote</p>
+              <a href="#">email me reminders to vote</a>
             </div>
             `
 })

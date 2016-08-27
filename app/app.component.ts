@@ -19,7 +19,7 @@ import {PositionComponent} from './position.component'
             </div>
 
             <div class="center-header">
-              <h1 id="site-title">Slice Vote</h1>
+              <h1 id="site-title">SLICE VOTE</h1>
               <site-author></site-author>
             </div>
 
@@ -41,7 +41,7 @@ import {PositionComponent} from './position.component'
               <position></position>
             </nav>
             `,
-  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent, BallotItemComponent]
+  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent, BallotItemComponent, PositionComponent]
 })
 
 export class AppComponent { }

@@ -4,7 +4,7 @@ import {Component} from '@angular/core'
   selector: 'vote-reg',
   template: `
             <div id="vote-reg">
-              <p>help me register to vote</p>
+              <a href="#">help me register to vote</a>
             </div>
             `
 })

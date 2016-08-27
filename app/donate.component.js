@@ -15,7 +15,7 @@ var DonateComponent = (function () {
     DonateComponent = __decorate([
         core_1.Component({
             selector: 'donate',
-            template: "\n            <div id=\"donate\">\n              <p>donate to slice vote</p>\n            </div>\n            "
+            template: "\n            <div id=\"donate\">\n              <a href=\"#\">donate to slice vote</a>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
     ], DonateComponent);

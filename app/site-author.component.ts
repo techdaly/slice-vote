@@ -4,7 +4,7 @@ import {Component} from '@angular/core'
   selector: 'site-author',
   template: `
             <div id="site-author">
-              <p><a href="#">who runs this site?</a></p>
+              <a href="#">who runs this site?</a>
             </div>
             `
 })

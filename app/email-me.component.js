@@ -15,7 +15,7 @@ var EmailMeComponent = (function () {
     EmailMeComponent = __decorate([
         core_1.Component({
             selector: 'email-me',
-            template: "\n            <div id=\"email-me\">\n              <p>email me reminders to vote</p>\n            </div>\n            "
+            template: "\n            <div id=\"email-me\">\n              <a href=\"#\">email me reminders to vote</a>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
     ], EmailMeComponent);

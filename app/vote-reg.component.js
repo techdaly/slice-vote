@@ -15,7 +15,7 @@ var VoteRegComponent = (function () {
     VoteRegComponent = __decorate([
         core_1.Component({
             selector: 'vote-reg',
-            template: "\n            <div id=\"vote-reg\">\n              <p>help me register to vote</p>\n            </div>\n            "
+            template: "\n            <div id=\"vote-reg\">\n              <a href=\"#\">help me register to vote</a>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
     ], VoteRegComponent);
