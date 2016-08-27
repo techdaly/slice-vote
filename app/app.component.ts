@@ -37,10 +37,11 @@ import {PositionComponent} from './position.component'
               <county></county>
               <party></party>
               <ballot-item></ballot-item>
+              <p>for</p>
               <position></position>
             </nav>
             `,
-  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent]
+  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent]
 })
 
 export class AppComponent { }
