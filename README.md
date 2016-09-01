@@ -36,7 +36,7 @@ The initial design went through 3 revisions before front-end development began.
 Slice Vote is currently under development using Angular 2.
 
 Honestly, I'm currently overwhelmed by trying to understand how to handle the data, but I'm looking into it. Other known issues:
-   - HTML drop down menus cannot be styled because they are rendered by the browser, so an alternative build to the <select> tag needs to be explored.
+   - HTML drop down menus cannot be styled because they are rendered by the browser, so an alternative build to the select tag needs to be explored.
    - HTML Aria needs to be implemented to convey changes in the DOM as they happen.
    - Branching behavior needs to be added to the navigation drop down menus.
    - Research and implement directives for fetching table data.
