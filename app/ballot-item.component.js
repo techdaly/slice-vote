@@ -15,7 +15,7 @@ var BallotItemComponent = (function () {
     BallotItemComponent = __decorate([
         core_1.Component({
             selector: 'ballot-item',
-            template: "\n            <div id=\"ballot-item\">\n              <label for=\"ballot-item\">Item</label>\n              <br>\n              <select name=\"ballot-item\">\n                <option value=\"candidate\">Candidate</option>\n                <option value=\"measure\">Measure</option>\n              </select>\n            </div>\n            "
+            template: "\n            <div id=\"ballot-item\">\n              <label for=\"ballot-item\">Item</label>\n              <br>\n              <select name=\"ballot-item\">\n                <option value=\"candidates\">Candidates</option>\n                <option value=\"measure\">Measure</option>\n              </select>\n            </div>\n            "
         }), 
         __metadata('design:paramtypes', [])
     ], BallotItemComponent);

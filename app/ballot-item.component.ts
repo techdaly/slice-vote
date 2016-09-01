@@ -7,7 +7,7 @@ import {Component} from '@angular/core'
               <label for="ballot-item">Item</label>
               <br>
               <select name="ballot-item">
-                <option value="candidate">Candidate</option>
+                <option value="candidates">Candidates</option>
                 <option value="measure">Measure</option>
               </select>
             </div>

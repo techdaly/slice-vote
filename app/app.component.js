@@ -19,14 +19,15 @@ var county_component_1 = require('./county.component');
 var party_component_1 = require('./party.component');
 var ballot_item_component_1 = require('./ballot-item.component');
 var position_component_1 = require('./position.component');
+var main_component_1 = require('./main.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n            <header>\n            <div class=\"left-header\">\n              <jump-link></jump-link>\n            </div>\n\n            <div class=\"center-header\">\n              <h1 id=\"site-title\">SLICE VOTE</h1>\n              <site-author></site-author>\n            </div>\n\n            <div class=\"right-header\">\n              <email-me></email-me>\n              <vote-reg></vote-reg>\n              <donate></donate>\n            </div>\n            </header>\n            <language></language>\n\n            <h2 id=\"eval-title\">You are currently evaluating the</h2>\n\n            <nav>\n              <county></county>\n              <party></party>\n              <ballot-item></ballot-item>\n              <p>for</p>\n              <position></position>\n            </nav>\n            ",
-            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent, site_author_component_1.SiteAuthorComponent, email_me_component_1.EmailMeComponent, vote_reg_component_1.VoteRegComponent, donate_component_1.DonateComponent, county_component_1.CountyComponent, party_component_1.PartyComponent, ballot_item_component_1.BallotItemComponent, position_component_1.PositionComponent]
+            template: "\n            <header>\n            <div class=\"left-header\">\n              <jump-link></jump-link>\n            </div>\n\n            <div class=\"center-header\">\n              <h1 id=\"site-title\">SLICE VOTE</h1>\n              <site-author></site-author>\n            </div>\n\n            <div class=\"right-header\">\n              <email-me></email-me>\n              <vote-reg></vote-reg>\n              <donate></donate>\n            </div>\n            </header>\n            <language></language>\n\n            <h2 id=\"eval-title\">You are currently evaluating the</h2>\n\n            <nav>\n              <county></county>\n              <party></party>\n              <ballot-item></ballot-item>\n              <p>for</p>\n              <position></position>\n            </nav>\n\n            <main></main>\n            ",
+            directives: [jump_link_component_1.JumpLinkComponent, language_component_1.LanguageComponent, site_author_component_1.SiteAuthorComponent, email_me_component_1.EmailMeComponent, vote_reg_component_1.VoteRegComponent, donate_component_1.DonateComponent, county_component_1.CountyComponent, party_component_1.PartyComponent, ballot_item_component_1.BallotItemComponent, position_component_1.PositionComponent, main_component_1.MainComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

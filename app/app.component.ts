@@ -9,6 +9,7 @@ import {CountyComponent} from './county.component'
 import {PartyComponent} from './party.component'
 import {BallotItemComponent} from './ballot-item.component'
 import {PositionComponent} from './position.component'
+import {MainComponent} from './main.component'
 
 @Component({
   selector: 'my-app',
@@ -40,8 +41,10 @@ import {PositionComponent} from './position.component'
               <p>for</p>
               <position></position>
             </nav>
+
+            <main></main>
             `,
-  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent, BallotItemComponent, PositionComponent]
+  directives: [JumpLinkComponent, LanguageComponent, SiteAuthorComponent, EmailMeComponent, VoteRegComponent, DonateComponent, CountyComponent, PartyComponent, BallotItemComponent, PositionComponent, MainComponent]
 })
 
 export class AppComponent { }
